@@ -53,18 +53,18 @@
 
 
 
-// Task - 5
-let arr = ["love", "world", "bear", "number"];          
+// // Task - 5
+// let arr = ["love", "world", "bear", "number"];          
 
-function LastLetters(arg) {
-    let NewMassiv = []
-    let lastletter = arr[arr.length - 1]
-    arr.forEach((value, index, arr) => {
-        NewMassiv.push(lastletter)
-    })
-    return NewMassiv
-}
-console.log(LastLetters(arr));
+// function LastLetters(arg) {
+//     let NewMassiv = []
+//     arr.forEach((value, index, arr) => {
+//         let lastletter = value[value.length - 1]
+//         NewMassiv.push(lastletter);
+//     })
+//     return NewMassiv
+// }
+// console.log(LastLetters(arr));
 
 // Task - 6
 // let arr = [20, 56, 77, 7, 23, 223,]
